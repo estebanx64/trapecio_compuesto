@@ -26,7 +26,7 @@ trapecio-compuesto metodo numerico
 Features
 --------
 
-* TODO
+* Método Númerico de Trapecio Compuesto para una ecuación polinómica.
 
 Credits
 -------
