@@ -7,6 +7,7 @@ from sympy.parsing.sympy_parser import parse_expr
 from sympy.parsing.sympy_parser import standard_transformations, implicit_multiplication_application
 
 def trapecio(a, b, n, entrada):
+    """Función que evalua una expresión polinómica por el método del trapecio compuesto."""
     transformations = (standard_transformations + (implicit_multiplication_application,))
     x = symbols("x")
 
